@@ -4,15 +4,16 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profile-->
+        <!--我的-->
         <scene sceneID="2hi-B8-sKB">
             <objects>
                 <navigationController id="52X-hq-hfk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="btn_user_normal" selectedImage="btn_user_selected" id="30C-lV-QhV"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="btn_user_normal" selectedImage="btn_user_selected" id="30C-lV-QhV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oC5-Qp-qVo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

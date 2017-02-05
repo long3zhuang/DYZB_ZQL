@@ -4,15 +4,16 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Live-->
+        <!--直播-->
         <scene sceneID="oLf-kf-jF6">
             <objects>
                 <navigationController id="Zdi-2O-mSN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Live" image="btn_column_normal" selectedImage="btn_column_selected" id="bMJ-fK-i0E"/>
+                    <tabBarItem key="tabBarItem" title="直播" image="btn_column_normal" selectedImage="btn_column_selected" id="bMJ-fK-i0E"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yJD-yD-svu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

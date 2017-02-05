@@ -4,15 +4,16 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Follow-->
+        <!--关注-->
         <scene sceneID="ALf-jK-u70">
             <objects>
                 <navigationController id="K4z-ih-nlR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Follow" image="btn_live_normal" selectedImage="btn_live_selected" id="QmV-Z7-rk6"/>
+                    <tabBarItem key="tabBarItem" title="关注" image="btn_live_normal" selectedImage="btn_live_selected" id="QmV-Z7-rk6"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WhN-zc-aIq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
